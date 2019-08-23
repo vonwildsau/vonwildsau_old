@@ -1,7 +1,7 @@
 $('img[data-enlargable]').addClass('img-enlargable').click(function(){
     var src = $(this).attr('src');
     $('<div>').css({
-        background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
+        background: 'RGBA(0,0,0,1) url('+src+') no-repeat center',
         backgroundSize: 'contain',
         width:'100%', height:'100%',
         position:'fixed',
