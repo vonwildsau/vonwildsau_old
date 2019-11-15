@@ -12,3 +12,24 @@ $('img[data-enlargable]').addClass('img-enlargable').click(function(){
         $(this).remove();
     }).appendTo('body');
 });
+
+
+
+function myFunction() {
+  var x = document.getElementById("mapNav");
+  var y = document.getElementById("fotoNav");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+   if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+}
+
+function scrollWin(x, y) {
+  window.scrollTo(x, y);
+}
