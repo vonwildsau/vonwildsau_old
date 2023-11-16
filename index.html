@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Maps von Wildsau</title>
+    <title>vonwildsau</title>
     
-   
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
     
@@ -15,70 +14,57 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>  
   
-<!--    <header>
- <a href="index.html"> <img style="height: 50px; width: 50px; margin: 5px;" src="https://cdn.glitch.com/aa5d2783-c34e-484c-bc71-c3e3e6692c68%2FlogoColor.png?v=1569953913133"></a>
-     
-  </header> -->
-  
-  <body>
+  <body style="overflow: hidden;">
     
-      <nav>
+    <nav>
       <br>
       <br>
-      <a href="index.html"><img class="logo" src="https://cdn.glitch.com/aa5d2783-c34e-484c-bc71-c3e3e6692c68%2FlogoColor.png?v=1569953913133"></a>
-      <a href="fotos.html"><div class="button"><h2>fotos</h2></div></a>
-      <div class="button" onclick="myFunction()" style="cursor:pointer;"><h2>maps</h2></div>
-      <div id="mapNav">
-       <ul>
-          <li onclick="scrollWin(0, 140)">HCZ</li>
-          <li onclick="scrollWin(0, 850)">Tieton</li>
-          <li onclick="scrollWin(0, 1500)">Mukuru</li>
-          <li onclick="scrollWin(0, 2180)">Bananas</li>
-        </ul>
-        <ul>
-          <li onclick="scrollWin(0, 2930)">Flood Mortality Risk</li>
-          <li onclick="scrollWin(0, 3600)">Sea Level Rise</li>
-        </ul>
-      </div>
-      <a href="about.html"><div class="buttonSm"><h2>about</h2></div></a>
-      <a href="contact.html"><div class="buttonSm"><h2>contact</h2></div></a>
+      <a href="index.html">
+       <!--  vonwildsau, below is NICOLA <img class="logo" src="https://cdn.glitch.global/e5b298ce-42d2-4123-ac81-f98f2a1f9765/Artboard%202.png?v=1669673724866"> -->
+        <img class="logo" src="https://cdn.glitch.global/e5b298ce-42d2-4123-ac81-f98f2a1f9765/Asset%202.png?v=1694228632673"> 
+      </a>
+     
+      <a href="works.html">
+        <div class="buttonSm">
+          <h2>work</h2>
+        </div>
+        </a>
+      
+      <a href="shop.html">
+        <div class="buttonSm">
+          <h2>shop</h2>
+        </div>
+       </a>
+      
+      <a href="about.html">
+        <div class="buttonSm">
+          <h2>about</h2>
+        </div>
+        </a>
+      
+      <a href="contact.html">
+        <div class="buttonSm">
+          <h2>contact</h2>
+        </div>
+        </a>
+    
     </nav>
     
-    <div class="mapBox">
-      
-    <h4>Interactive Web Maps</h4> 
-    <hr>
-      <br>
-      <h4>Harlem Children's Zone</h4>
-      <h5>
-        The partnership organization - Harlem’s Children’s Zone - currently utilizes a relatively standard Google Maps product to display their project sites throughout their ‘zone’ in Harlem, New York. While adequate, the organization would like to upgrade interactivity for the sites, and feature the actual spatial layouts of the schools - where the buildings are located, playgrounds, special buildings, ect.
-
-Largely points based, the current map features pop-ups that include photo/video media and a link to another page within their site that goes into specific school detail.
-      </h5>
-      <a href="https://hcz-draft.glitch.me/" target="_blank">
-        <img class="maps" src="https://cdn.glitch.com/aa5d2783-c34e-484c-bc71-c3e3e6692c68%2FhczWhole.PNG?v=1569874212462"></a>
-      <h4>City of Tieton</h4>
-      <h5>     Mapping out all the Parcels in the city of Tieton in Washington State. The purpose of this map was to experiment with the intersection of publicly available data and architectural CAD site plans.
-      </h5>
-      <a href="https://tieton.glitch.me/" target="_blank">
-        <img class="maps" src="https://cdn.glitch.com/aa5d2783-c34e-484c-bc71-c3e3e6692c68%2Ftieton.PNG?v=1569874184312"></a>
-      <h4>Mukuru, Nairobi, Kenya</h4>
-      <h5>Mukuru is one of the largest of over 150 informal settlements in Nairobi, Kenya with an estimated population of 300,000 people. This map was created to enable citizens of Mukuru to create a ranking system of schools in the settlement.</h5>
-      <a href="https://mukuru-v2.glitch.me/" target="_blank">
-        <img class="maps" id="mukuru" src="https://cdn.glitch.com/aa5d2783-c34e-484c-bc71-c3e3e6692c68%2FMukuru.PNG?v=1569949674652"></a>
-      <h4>Where's your Banana from?</h4>
-      <h5>Did you know Bananas can travel thousands of miles/kilometers before they reach you? Many large produce suppliers and distributers have started including the country of origin on the produce sticker. By inputting your Banana's country into our database you'll be adding to an ongoing project tracking the global Banana trade.
-      </h5>
-      <a href="https://your-banana.glitch.me/" target="_blank">
-        <img class="maps" src="https://cdn.glitch.com/aa5d2783-c34e-484c-bc71-c3e3e6692c68%2F6f56f776-5aa1-4e6a-b398-8ebfbec1f9cb.image.png?v=1569951226430"></a>
+   <!-- <div style="left: 500px;" class="pictures">
      
-    <h4>Print Maps</h4>  
-    <img class="maps" src="https://cdn.glitch.com/aa5d2783-c34e-484c-bc71-c3e3e6692c68%2FGIS_Portfolio_Page_08.png?v=1569873387021">
-    <img class="maps" src="https://cdn.glitch.com/aa5d2783-c34e-484c-bc71-c3e3e6692c68%2FGIS_Portfolio_Page_11.png?v=1569873392573">
-     
+      <div>
+          <img src="https://cdn.glitch.global/e5b298ce-42d2-4123-ac81-f98f2a1f9765/Artboard%202.png?v=1669673724866">
+        </div>
    
+     
+      
+    </div> -->
     
+  <!--  <div class="aboutPicture">
+      <img src="https://cdn.glitch.com/aa5d2783-c34e-484c-bc71-c3e3e6692c68%2FmeWhiteHi.png?v=1569967444941">
     </div>
+
+-->
     
   </body>
 </html>
